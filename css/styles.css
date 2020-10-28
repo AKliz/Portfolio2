@@ -29,6 +29,15 @@ ul.horizontal li a {
   background-size: cover;
   position: relative;
 }
+.hero-color{
+  background-image: url("https://images.pexels.com/photos/1509582/pexels-photo-1509582.jpeg");
+  background-color: #cccccc;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
 .hero-text {
   text-align: center;
@@ -81,4 +90,19 @@ footer{
   text-align: center;
   padding-top:16px;
   padding-bottom:16px;
+}
+section .intro{
+  text-align:center;
+  width:75%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.portfolio-button a{
+  padding: 8px;
+  text-decoration: none;
+  border: 1px solid;
+  color: green;
+}
+p.portfolio-button{
+  text-align: center;
 }
