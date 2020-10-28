@@ -21,9 +21,9 @@ ul.horizontal li a {
     text-decoration: none;
 }
 .hero-image {
-  background-image: url("../images/lama.jpg");
+  background-image: url("../images/auroa.jpg");
   background-color: #cccccc;
-  height: 500px;
+  height: 768px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
