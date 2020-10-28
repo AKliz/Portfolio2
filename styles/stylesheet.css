@@ -46,7 +46,12 @@ ul.horizontal li a {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size:32px;
+}
+.hero-text h1, h1.hero-text{
+  font-size:2em;
+}
+.hero-text h2{
+  font-size:28px;
 }
 
 .column-half, .column-two-thirds, .column-quarter{
@@ -94,6 +99,7 @@ footer{
   text-align: center;
   padding-top:16px;
   padding-bottom:16px;
+  margin-top:64px;
 }
 div .intro{
   text-align:center;
