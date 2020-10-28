@@ -47,7 +47,7 @@ ul.horizontal li a {
   transform: translate(-50%, -50%);
   color: white;
 }
-.title-text h1{
+.hero-text h1{
   font-size:3em;
 }
 h1.title-text, .hero-text h2{
