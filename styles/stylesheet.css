@@ -46,7 +46,7 @@ ul.horizontal li a {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size:3em;
+  font-size:28px;
 }
 
 .column-half, .column-two-thirds, .column-quarter{
@@ -95,7 +95,7 @@ footer{
   padding-top:16px;
   padding-bottom:16px;
 }
-section .intro{
+div .intro{
   text-align:center;
   width:75%;
   margin-left:auto;
@@ -113,6 +113,6 @@ p.portfolio-button{
 h1, h2, h3, h4, nav {
   font-family: 'Fjalla One', sans-serif;
 }
-h3{
+h2, h3{
   font-size:2em;
 }
