@@ -1,0 +1,84 @@
+body{margin: 0px;}
+*{box-sizing: border-box;}
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+ul.horizontal li {
+    float: left;
+}
+ul.horizontal li a.active {
+    background-color: #4CAF50;
+}
+ul.horizontal li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.hero-image {
+  background-image: url("https://cdn.pixabay.com/photo/2020/10/23/16/43/vicuna-5679264_1280.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.column-half, .column-two-thirds, .column-quarter{
+  padding:32px;
+}
+
+@media only screen and (min-width: 899px){
+.column-half{
+  float:left;
+  width: 50%;
+  padding:32px;
+}
+.column-two-thirds{
+  float:left;
+  width: 75%;
+  padding:32px;
+}
+.column-quarter{
+  float:left;
+  width: 25%;
+  padding:32px;
+}
+}
+.row{
+  padding-top:64px;
+  padding-top:64px;
+}
+.row:after{
+  content: "";
+  display:table;
+  clear:both;
+}
+img.portfolio-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer{
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding-top:16px;
+  padding-bottom:16px;
+}
