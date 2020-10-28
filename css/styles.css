@@ -21,7 +21,7 @@ ul.horizontal li a {
     text-decoration: none;
 }
 .hero-image {
-  background-image: url("./images/hero-image.jpg");
+  background-image: url("../images/hero-image.jpg");
   background-color: #cccccc;
   height: 500px;
   background-position: center;
@@ -30,7 +30,7 @@ ul.horizontal li a {
   position: relative;
 }
 .hero-color{
-  background-image: url("https://images.pexels.com/photos/1509582/pexels-photo-1509582.jpeg");
+  background-image: url("../images/sand.jpg");
   background-color: #cccccc;
   height: 250px;
   background-position: center;
