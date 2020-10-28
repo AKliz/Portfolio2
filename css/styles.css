@@ -109,3 +109,7 @@ section .intro{
 p.portfolio-button{
   text-align: center;
 }
+h1, h2, h3, h4, nav {
+  font-family: 'Fjalla One', sans-serif;
+
+}
