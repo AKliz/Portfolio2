@@ -1,28 +1,35 @@
+body {
+  margin: 0px;
+}
 
+* {
+  box-sizing: border-box;
+}
 
-
-body{margin: 0px;}
-*{box-sizing: border-box;}
 ul.horizontal {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
+
 ul.horizontal li {
-    float: left;
+  float: left;
 }
+
 ul.horizontal li a.active {
-    background-color: #4CAF50;
+  background-color: #4CAF50;
 }
+
 ul.horizontal li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
+
 .hero-image {
   background-image: url("../images/auroa.jpg");
   background-color: #cccccc;
@@ -32,7 +39,8 @@ ul.horizontal li a {
   background-size: cover;
   position: relative;
 }
-.hero-color{
+
+.hero-color {
   background-image: url("../images/hero-image.jpg");
   background-color: #cccccc;
   height: 250px;
@@ -50,94 +58,110 @@ ul.horizontal li a {
   transform: translate(-50%, -50%);
   color: white;
 }
-.hero-text h1, h1.title-text{
-  font-size:3em;
-}
-.hero-text h2{
-  font-size:28px;
+
+.hero-text h1, h1.title-text {
+  font-size: 3em;
 }
 
-.column-half, .column-quarter, .column-two-thirds, .column-thirds{
-  padding:32px;
+.hero-text h2 {
+  font-size: 28px;
 }
 
-@media only screen and (min-width: 899px){
-  .column-half{
+.column-6, .column-3, .column-8, .column-4 {
+  padding: 32px;
+}
+
+@media only screen and (min-width: 899px) {
+  .column-6 {
     max-width: 50%;
   }
-  section.column-half article {
-      padding-right: 32px;
+
+  section.column-6 article {
+    padding-right: 32px;
   }
-  .column-two-thirds{
+
+  .column-8 {
     max-width: 75%;
   }
-  .column-quarter{
+
+  .column-3 {
     max-width: 25%;
   }
-  .column-thirds{
+
+  .column-4 {
     max-width: 33%;
   }
 }
-.column-half article:first-child{
-  padding-right:48px;
+
+.column-6 article:first-child {
+  padding-right: 48px;
 }
 
-.container{
+.row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 64px;
 }
 
-
-img.portfolio-img{
+img.portfolio-img {
   margin-left: auto;
   margin-right: auto;
 }
-ul.skills, ul.personal{
+
+ul.skills, ul.personal {
   list-style-type: none;
   line-height: 1.75em;
 }
+
 .personal i {
-    padding: 0 10px 0 0;
+  padding: 0 10px 0 0;
 }
+
 .personal i.fas.fa-map-marker-alt {
-    padding: 0 10px 0 2px;
+  padding: 0 10px 0 2px;
 }
-ul.skills li:before{
+
+ul.skills li:before {
   content: "\f00c";
-  font-family:'FontAwesome';
+  font-family: 'FontAwesome';
   padding: 0 10px 0 0;
   color: green;
 }
 
-footer{
+footer {
   background-color: #333;
   color: white;
   text-align: center;
-  padding-top:16px;
-  padding-bottom:16px;
-  margin-top:64px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 64px;
 }
- .intro{
-  text-align:center;
-  width:75%;
-  margin-left:auto;
-  margin-right:auto;
+
+.intro {
+  text-align: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 64px;
 }
-.portfolio-button a{
+
+.portfolio-button a {
   padding: 8px;
   text-decoration: none;
   border: 1px solid;
   color: #4CAF50;
 }
-.projects{
+
+.row.projects {
+  padding-top: 32px;
   text-align: center;
 }
+
 h1, h2, h3, h4, nav {
   font-family: 'Fjalla One', sans-serif;
 }
-main h2, main h3{
-  font-size:2em;
+
+main h2, main h3 {
+  font-size: 2em;
 }
