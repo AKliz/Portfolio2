@@ -1,3 +1,6 @@
+
+
+
 body{margin: 0px;}
 *{box-sizing: border-box;}
 ul.horizontal {
@@ -54,39 +57,39 @@ ul.horizontal li a {
   font-size:28px;
 }
 
-.column-half, .column-two-thirds, .column-quarter{
+.column-half, .column-quarter, .column-two-thirds, .column-thirds{
   padding:32px;
 }
 
 @media only screen and (min-width: 899px){
-.column-half{
-  float:left;
-  width: 50%;
-  padding:32px;
+  .column-half{
+    max-width: 50%;
+  }
+  section.column-half article {
+      padding-right: 32px;
+  }
+  .column-two-thirds{
+    max-width: 75%;
+  }
+  .column-quarter{
+    max-width: 25%;
+  }
+  .column-thirds{
+    max-width: 33%;
+  }
 }
-section.column-half article {
-    padding-right: 32px;
+.column-half article:first-child{
+  padding-right:48px;
 }
-.column-two-thirds{
-  float:left;
-  width: 75%;
-  padding:32px;
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 64px;
 }
-.column-quarter{
-  float:left;
-  width: 25%;
-  padding:32px;
-}
-}
-.row{
-  padding-top:64px;
-  padding-top:64px;
-}
-.row:after{
-  content: "";
-  display:table;
-  clear:both;
-}
+
+
 img.portfolio-img{
   display: block;
   margin-left: auto;
@@ -117,11 +120,12 @@ footer{
   padding-bottom:16px;
   margin-top:64px;
 }
-div .intro{
+ .intro{
   text-align:center;
   width:75%;
   margin-left:auto;
   margin-right:auto;
+  padding-top: 64px;
 }
 .portfolio-button a{
   padding: 8px;
@@ -129,7 +133,7 @@ div .intro{
   border: 1px solid;
   color: #4CAF50;
 }
-p.portfolio-button{
+.projects{
   text-align: center;
 }
 h1, h2, h3, h4, nav {
