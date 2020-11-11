@@ -92,6 +92,22 @@ img.portfolio-img{
   margin-left: auto;
   margin-right: auto;
 }
+ul.skills, ul.personal{
+  list-style-type: none;
+  line-height: 1.75em;
+}
+.personal i {
+    padding: 0 10px 0 0;
+}
+.personal i.fas.fa-map-marker-alt {
+    padding: 0 10px 0 2px;
+}
+ul.skills li:before{
+  content: "\f00c";
+  font-family:'FontAwesome';
+  padding: 0 10px 0 0;
+  color: green;
+}
 
 footer{
   background-color: #333;
