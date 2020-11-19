@@ -16,9 +16,10 @@ ul.horizontal {
 
 ul.horizontal li {
   float: left;
+  transition:all 0.3s ease;
 }
 
-ul.horizontal li a.active {
+ul.horizontal li a.active, ul.horizontal li:hover {
   background-color: #4CAF50;
 }
 
@@ -151,20 +152,57 @@ footer {
   text-decoration: none;
   border: 1px solid;
   color: #4CAF50;
+  transition:all 0.3s ease;
+}
+.portfolio-button a:hover
+{
+  color:white;
+  background: #4CAF50;
+  border: 1px solid #4CAF50;
+  border-radius:5%;
 }
 
 .row.projects {
-  padding-top: 32px;
-  text-align: center;
+    padding-top: 32px;
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 h1, h2, h3, h4, nav {
   font-family: 'Fjalla One', sans-serif;
 }
 
-main h2, main h3 {
+main h2 {
   font-size: 2em;
+}
+main h3 {
+  font-size: 1.75em;
 }
 
 p, a, ul{font-family: 'Cairo', sans-serif;
+}
+
+/***Transitions for Projects **/
+img.fade {
+  margin-bottom: 18px;
+  margin-top: 9px;
+  transition:all 0.3s ease;
+}
+img.fade:hover
+{
+  opacity:0.75;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.grow{
+  transition:all 0.3s ease;
+}
+.grow:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
 }
